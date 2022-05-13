@@ -17,12 +17,12 @@
                 Clubs
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clubs-link">
-                <a href="" class="dropdown-item">Woods</a>
-                <a href="" class="dropdown-item">Fairway Woods</a>  
-                <a href="" class="dropdown-item">Hybrids</a>
-                <a href="" class="dropdown-item">Irons Set</a>                
-                <a href="" class="dropdown-item">Wedges</a>      
-                <a href="" class="dropdown-item">Putters</a>           
+                <a href="{% url 'products' %}?category=woods" class="dropdown-item">Woods</a>
+                <a href="{% url 'products' %}?category=fairway_woods" class="dropdown-item">Fairway Woods</a>  
+                <a href="{% url 'products' %}?category=hybrids" class="dropdown-item">Hybrids</a>
+                <a href="{% url 'products' %}?category=irons" class="dropdown-item">Irons Set</a>                
+                <a href="{% url 'products' %}?category=wedges" class="dropdown-item">Wedges</a>      
+                <a href="{% url 'products' %}?category=putters" class="dropdown-item">Putters</a>           
             </div>
         </li>
 
@@ -31,9 +31,9 @@
                 accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Golf Bags</a>
-                <a href="" class="dropdown-item">Golf Balls</a>
-                <a href="" class="dropdown-item">GPS Watches</a>
+                <a href="{% url 'products' %}?category=golf_bags" class="dropdown-item">Golf Bags</a>
+                <a href="{% url 'products' %}?category=golf_balls" class="dropdown-item">Golf Balls</a>
+                <a href="{% url 'products' %}?category=gps_watches" class="dropdown-item">GPS Watches</a>
                 
             </div>
         </li>

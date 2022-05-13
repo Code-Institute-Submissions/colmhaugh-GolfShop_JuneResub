@@ -1,0 +1,35 @@
+[{"pk": 1, 
+"model": "products.category", 
+"fields": 
+{"name": "woods", 
+"friendly_name": "Woods"}}, 
+{"pk": 2, "model": "products.category", 
+"fields": 
+{"name": "fairway_woods", "friendly_name": "Fairway Woods"}}, 
+{"pk": 3, 
+"model": "products.category", 
+"fields": 
+{"name": "hybrids", 
+"friendly_name": "Hybrids"}}, 
+{"pk": 4, 
+"model": "products.category", 
+"fields": {"name": "irons", 
+"friendly_name": "Irons"}}, 
+{"pk": 5, 
+"model": "products.category", 
+"fields": 
+{"name": "wedges", 
+"friendly_name": "Wedges"}}, 
+{"pk": 6, 
+"model": "products.category", 
+"fields": 
+{"name": "putters", 
+"friendly_name": "Putters"}}, 
+{"pk": 7, 
+"model": "products.category", 
+"fields": {"name": "golf_bags", 
+"friendly_name": "Golf Bags"}}, 
+{"pk": 8, "model": "products.category", 
+"fields": {"name": "golf_balls", "friendly_name": "Golf Balls"}}, 
+{"pk": 9, "model": "products.category", 
+"fields": {"name": "gps_watches", "friendly_name": "GPS Watches"}}]

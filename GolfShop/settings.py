@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-!4k6y13^xle83o7dcj1vgcahs@y26t)y$&+p)d&e(^lj-de02+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['golfshopp5', 'localhost']
 
 
 # Application definition
@@ -123,16 +123,27 @@ WSGI_APPLICATION = 'GolfShop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 # DATABASES = {
 #     'default': dj_database_url.parse('postgres://ktvaixfszirrvo:ea1c5aac0e5f028c0926b0a786f410406830c1a6086a1e8e98b2ae72e1881fca@ec2-176-34-211-0.eu-west-1.compute.amazonaws.com:5432/d2v3vkq6gajadm')
 # }
 
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse('postgres://ktvaixfszirrvo:ea1c5aac0e5f028c0926b0a786f410406830c1a6086a1e8e98b2ae72e1881fca@ec2-176-34-211-0.eu-west-1.compute.amazonaws.com:5432/d2v3vkq6gajadm')
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

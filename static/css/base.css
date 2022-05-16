@@ -30,18 +30,18 @@ they will always stay perfectly centred and have a consistent size */
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: #2b5834;
+    color: #c0d9bf;
     min-width: 260px;
 }
 
 .btn-black {
     background: black;
-    color: white;
+    color: #c0d9bf;
 }
 
 .btn-outline-black {
-    background: white;
+    background: #c0d9bf;
     color: black !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
@@ -49,8 +49,8 @@ they will always stay perfectly centred and have a consistent size */
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
-    color: white !important;
+    background: #2b5834;
+    color: #c0d9bf !important;
 }
 
 .shop-now-button:hover,
@@ -60,7 +60,7 @@ they will always stay perfectly centred and have a consistent size */
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: white;
+    color: #c0d9bf;
 }
 
 .text-black {
@@ -81,7 +81,7 @@ they will always stay perfectly centred and have a consistent size */
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: #c0d9bf;
 	z-index: -1;
 }
 

@@ -1,6 +1,6 @@
 <h1 align="center">GolfShop</h1>
 
-![Portfolio website](readme/readme_img/recipeBLOG.png)
+![Portfolio website](readme_img/AmIResponsive.png)
 
 <span id="golfShop"></span>
 
@@ -71,7 +71,7 @@ All the goals of first-time visitors also apply for site members. There are addi
 
 **Admin goals:**
 
-All the goals of the first time visitors and site members also apply for the admin. The admin has additional user stories to manage the categories of the recipes. 
+All the goals of the first time visitors and site members also apply for the admin. The admin has additional user stories to manage the categories of the golf accessories. 
 1. As an admin, I want to be able to add, edit and delete an item to the website.
 2. As an admin, I want to be able to approve a message before it is displayed in the website. 
 
@@ -80,9 +80,9 @@ All the goals of the first time visitors and site members also apply for the adm
 ### 1.3 Design 
 
 - #### Colour scheme 
-I kept this website very neutral so that it doesnt take away from the golf images.  White for the header and footer and a offwhite for the recipes.  I added some colour to the RecipeBLOG to brighten the header. 
+I kept this website very neutral so that it doesnt take away from the golf images.  White for the header mild color scheme from colorwwall.com.   
 
-![Colour scheme](readme/readme_img/Icon.png)
+![Colour scheme](readme_img/color.png)
 
 
 - #### Fonts
@@ -92,11 +92,11 @@ The **Merriweather** are used throughout the whole website. Sans serif and cursi
 In the project, for the golf club and user, I used the icons provided by [Font Awesome](https://fontawesome.com/).  
 
 - #### Images
-As was used in the walkthrough project, i used Cloudinary for my Images. 
+I collected the images from multiple sites including https://www.halpennygolf.com/. 
 
 - #### Interactive design 
 
-    - The website is basic and has the courses on the header so that they can select an option and can easliy logout. 
+    - The website is basic and simple to use for the user.  Users can navigate the site easily and clearly find what they are looking for. 
 
 <span id="ux-architecture"></span>
 
@@ -110,7 +110,7 @@ Mockup designs are made with [Balsamic.](https://balsamiq.com/)
 Click on the links below to view.
 |    Mobile   |    Tablet / Desktop   | 
 |    :----:    |     :----:   |   
-|[RecipeBLOG](https://github.com/colmhaugh/RecipeBlog/blob/main/readme/balsamic/Recipe%20for%20Android.bmpr)|[RecipeBLOG](https://github.com/colmhaugh/RecipeBlog/blob/main/readme/balsamic/Recipe%20for%20LargerScreens.bmpr) | 
+|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golf%20for%20Android.bmpr)|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golfe%20for%20LargerScreens.bmpr) | 
 
 <span id="features"></span>
 
@@ -123,15 +123,16 @@ Click on the links below to view.
 #### 1. Design 
 - A basic, uncluttered layout with consistency.
 - Simple navigation throughout the website by using the navigation bar. 
-- Displaying nice images and easy to follow instructions.
+- Displaying nice images, description and proces of the products.
 
 #### 2. General 
 - The home page has a header where the user can login, log out or create an account. 
 - Users can search for a club on using the search bar. 
 - Users can select select from a tab what club or accessory they want to see. 
+- Users can navigate to a facebook shop page to help SEO. 
 
 #### 3. Product
-- Logged in super user can Edit or delete an item. 
+- Logged in super user can add, edit or delete an item. 
 - Users can arrange the items by price, category or name. 
 - Users can select a product and add it to the bag. 
 
@@ -150,7 +151,7 @@ Click on the links below to view.
 
 ### 2.2 Features left to implement in the future 
 - Extra style to be added.
-- Logged in user to view just the recipes that they like.
+- Facebook page to be updated.
 
 <span id="technologies"></span>
 
@@ -176,8 +177,6 @@ Click on the links below to view.
     - The Git was used for version control to commit to Git and push to GitHub.
 - [GitHub](https://github.com/)
     - The GitHub is used to host the project.
-- [Google Fonts](https://fonts.google.com/)
-    - Google Fonts is used to provide the font roboto for all the text that is used in the project. 
 - [Balsamic](https://balsamiq.com/)
     - Balsamic is used to create the mockup designs for the project.
 - [PostgreSQL](https://www.postgresql.org/)
@@ -186,6 +185,20 @@ Click on the links below to view.
     - Heroki is the cloud platform to deploying the app.
 - [AllAuth](https://django-allauth.readthedocs.io/en/latest/)
     - Django-allauth was used for registeration, login and log out.
+- [AWS Amazon](https://aws.amazon.com/)
+    - AWS Amazon is used to store static and media files.
+- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+    - Boto3 is used for compatibility in AWS.
+- [Gunicorn](https://pypi.org/project/gunicorn/)
+    - Gunicorn is used to enable deployment to Heroku.
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+    - Django Crispy Forms is used to style the Django forms
+- [Stripe](https://stripe.com/en-nl)
+    - Stripe is used for the secure payments.
+- [SQlite3](https://www.sqlite.org/index.html)
+    - SQlite3 is used as the development database.
+- [PostgreSQL](https://www.postgresql.org/)
+    - PostgreSQL is used as the production database.
 
 #### Testing tools used 
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/open) is used to detect problems and test responsiveness.
@@ -228,28 +241,20 @@ Click on the links below to view.
 
 ## 4. Testing user stories 
 
-1. As a user i want to click on a recipe so that I can see the the details of the recipe. 
-    - The user can click on a recipe and a detail page will open with the details required.
-2. As a user i want to view a paginated list of recipes so that I can select what recipe i want to view. 
-    - The user will see a maximum of 6 recipes per page.  I created multiple recipes for each category and tested that a next and previous buttons worked on each page. 
-3. As a user i want to see how many likes a recipe has so that i can see the most popular recipe.
-    - A user can see a thumbs up and a number beside it to see how many like the recipe got. 
-4. As a user i want to be able to like a post so that i can interact with the recipe.
-    - A logged in user can like and unlike a post.  If a user is not logged in they cannot like a post.
-5. As an Administrator, i want to add a recipe so that other users can view my recipe and give comments or like on it.
-    - I added recipes in the backend and approved them so that they appear on the website. 
-6. As a user i want to be able to register an account so that add recipes, likes and comments.
+1. As a user i want to click on a golf accessory so that I can see the the details of the product. 
+    - The user can click on a product and a detail page will open with the details required.
+2. As a user i want to view a paginated list of products so that I can select what product I want to view. 
+    - The user will see see a set ammount of products depending on the screen size. 
+3. As a user i want to add and remove items from my shopping basket.
+    - A user add and remove products from basket. 
+4. As a user i want to be able to search for a product.
+    - A logged in user can enter text into the search bar and find a product they want.  
+5. As an Administrator, i want to add, remove and edit a product so that other users can view my products.
+    - I added products as an admin. 
+6. As a user i want to be able to register an account.
     - I created and deleted test user accounts.  All this was handled by allAuth.
-7. As a user i want to be able to filter the recipes so that i can view the list of recipes available for that cource.
-    - I added courses to the header so that they appear on all pages so that the user can easily choose which course they want to see the recipes for.  I clicked all cources on multiple devices to ensure that the correct course appeared.
-8. As a logged in user i want to be able to add a comment to a recipe so that i can give feed back on a recipe.
-    - I created multiple test accounts and added comments to different recipes to ensure that the comments appeared.  I tested that if the user was not logged in that they were not able to add comments.
-9. As a user i want to view comments so that i can see what is being said about each recipe.
-    - I tested wile logged in and out to check that the user can view the comments on each recipe.
-10. As a site admin i want to create, read, update and delete recipes so that manage the content on the site.
-    - I tested the recipes did not appear on the site until they were approved.
-10. As a site admin i want to approve the comments before they appear on the site.
-    - I added comments and checked tested that they didnt appear on the site until approved by the administrator.
+7. As a user i want to be able to list the products in different orders so that i can view the list order by price or category.
+    - I added order functionality and tested in the app.
 
 
 <h1>5. Deployment</h1>
@@ -297,8 +302,8 @@ Click on **Open app** in the right corner of your Heroku account. The app wil op
 
 This project is based on the Botique Ado walkthrough project and also using project example Idea 2.  A lot of the code that I used in the walkthrough project I also used on this project.
 
-#### Recipes
-- I got the recipes and images from various online golf shops [BBC Good Food](https://www.bbcgoodfood.com/). 
+#### Products
+- I got the product images, price and details from various online golf shops, mainly [halpennygolf](https://www.halpennygolf.com/). 
 
 #### Code
 - Code Institute walkthrough project I think therefore I blog.
@@ -308,6 +313,7 @@ This project is based on the Botique Ado walkthrough project and also using proj
 <h1>7. Acknowledge</h1>
 
 Thanks to the following people and organizations who helped or inspired me for the project:  
+- The support from Kasia and my class mates.
 - The support and guidance of my mentor Precious Ijege. 
 - The lessons and knowledge of [Code Institute.](https://codeinstitute.net/)
 - The advice about bugs from Slack community.

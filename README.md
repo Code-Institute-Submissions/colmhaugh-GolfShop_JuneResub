@@ -203,7 +203,7 @@ Click on the links below to view.
 - #### Colour scheme 
 I kept this website very neutral so that it doesnt take away from the golf images.  White for the header mild color scheme from colorwwall.com.   
 
-![Colour scheme](readme_img/color.png)
+![Colour scheme](readme/readme_img/color.png)
 
 
 - #### Fonts
@@ -227,7 +227,7 @@ I collected the images from multiple sites including https://www.halpennygolf.co
 
 <span id="features"></span>
 
-<h1>23. Features</h1>
+<h1>3. Features</h1>
 
 <span id="features-existing"></span>
 

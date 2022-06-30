@@ -1,6 +1,6 @@
 <h1 align="center">GolfShop</h1>
 
-![Portfolio website](readme_img/AmIResponsive.png)
+![Portfolio website](readme/readme_img/AmIResponsive.png)
 
 <span id="golfShop"></span>
 

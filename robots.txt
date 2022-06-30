@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://golfshopp5.herokuapp.com/site-map.xml

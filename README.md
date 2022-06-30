@@ -18,27 +18,26 @@ I used the walk through videos to help code the project.
 
 ## Index 
 
-- <a href="#ux">1. User experience (UX)</a>
-  - <a href="#ux-goals">1.1. Project goals</a>
-  - <a href="#ux-stories">1.2 User stories</a>
-  - <a href="#ux-design">1.3 Design</a>
-  - <a href="#ux-architecture">1.4 Information architecture</a>
-  - <a href="#ux-mockup">1.5 Mockup designs</a>
-- <a href="#features">2. Features</a>
-  - <a href="#features-existing">2.1 Existing features</a>
-  - <a href="#features-future">2.2 Features left to implement in the future</a>
-- <a href="#technologies">3. Technologies used</a>
-- <a href="#testing">4. Testing</a>
-- <a href="#deployment">5. Deployment</a>
-- <a href="#credits">6. Credits</a>
-- <a href="#Acknowledge">7. Acknowledge</a>
-- <a href="#Acknowledge">8. Disclaimer</a>
+- <a href="#introduction">1. Introduction</a>
+- <a href="#ux">2. UX</a>
+  - <a href="#ux-ideal-user-demographic">2.1 Ideal User Demographic</a>
+  - <a href="#ux-user-stories">2.2 User Stories</a>
+  - <a href="#ux-development-planes">2.3 Development Planes</a>
+  - <a href="#ux-design">2.4 Design</a>
+- <a href="#features">3. Features</a>
+  - <a href="#features-existing">3.1 Existing features</a>
+  - <a href="#features-future">3.2 Features left to implement in the future</a>
+- <a href="#technologies">4. Technologies used</a>
+- <a href="#testing">5. Testing</a>
+- <a href="#deployment">6. Deployment</a>
+- <a href="#credits">7. Credits</a>
+- <a href="#Acknowledge">8. Acknowledge</a>
 
 ---
 
-<span id="ux"></span>
+<span id="#introduction"></span>
 
-<h1>1. User experience (UX)</h1>
+<h1>1. Introduction</h1>
 
 <span id="ux-goals"></span>
 
@@ -49,35 +48,157 @@ I used the walk through videos to help code the project.
 - Creating a website that serves as a platform where people shop online, create an account and add items to the site. 
 - Creating a website that is simple to understand and easy to navigate.
 
-<span id="ux-stories"></span>
+<span id="#ux"></span>
 
-### 1.2 User stories 
+<h1>2. UX</h1>
+
+<span id="ux-ideal-user-demographic"></span>
+
+### 2.1 Ideal User Demographic 
+
+**The ideal user of this website will be:**
+-Golfers
+-Looking for gift ideas
+-Interested in Sports
+-Interested in starting a new sport
+
+
+<span id="ux-user-stories"></span>
+
+### 2.2 User stories 
 
 **First-time visitor goals:**
 1. As a first time visitor, I want to be able to visit the website on every device, so that I can look at the website on desktop, mobile and tablet. 
 2. As a first time visitor, I want to be able to navigate easily through the website, so I can find everything easily. 
-3. As a first time visitor, I want to be able to add and remove items from my shopping basket.
-4. As a first time visitor, I want to be able to search golf clubs by categories, so I can easily find the equipment I want. 
-5. As a first time visitor, I want to register an account on the website, so I can buy golf accessories. 
+3. As a first time visitor, I want to be able to search golf clubs by categories, so I can easily find the equipment I want. 
+4. As a first time visitor, I want to register an account on the website, so I can buy golf accessories. 
+5. As a first time visitor, I want to select a product so that I can get more information on that product.
+6. As a first time visitor, I want to sort items so that I can view products in alphabetical order or price.
 
 **Site member goals:** 
 
 All the goals of first-time visitors also apply for site members. There are additional user stories to the site members because they have more access to the website. See the additional user stories below. 
-1. As a site member, I want to login to my profile.  
-2. As a site member, I want to search for golf equipment.
-3. As a site member, I want to buy the equipment. 
-4. As a site member, I want to logout to my profile. 
+1. As a site User I want to receive email confirmation after registering so that I know my registration was successful. 
+2. As a site user I want to be able to enter my payment information so that I can purchase equipment.
+3. As a site user I want to add items and remove items to my shopping bag so that i have the correct items in the bag
+4. As a site user I want to view the total price of my items in the shopping bag so that I know what the total price will be.
+5. As a site user I want to feel safe when i pay for my items so that i can give information to complete my purchase.
+6. As a site user I want to give my email details so that i can be added to a group to get updated from company.
+7. As a site user I want to go to the Facebook page so that I can see additional information about the shop.
+8. As a site user, I want to logout to my profile. 
 
 
 **Admin goals:**
 
 All the goals of the first time visitors and site members also apply for the admin. The admin has additional user stories to manage the categories of the golf accessories. 
 1. As an admin, I want to be able to add, edit and delete an item to the website.
-2. As an admin, I want to be able to approve a message before it is displayed in the website. 
+
+<span id="ux-development-planes"></span>
+
+### 2.3 Development Planes 
+
+To create a website that would attract and engage users, the developer viewed other golf and sports websites for ideas for what features and functionality would be required.
+
+### Main Inspirations
+
+The botique Ado application and various golf and sports websites
+![halpennygolf](https://www.halpennygolf.com/)
+![McGuirksGolf](https://www.mcguirksgolf.com/)
+![Elverys](https://www.elverys.ie/)
+And More....
+
+### Strategy
+
+Broken into three categories, the website will attempt to focus on the following target audiences:
+
+**Roles:**
+
+- first time visitor
+- Site User
+- Site Administrator
+
+**Demographic:**
+
+- Any age group
+- Golfers
+- Gift givers
+- Sporty
+
+**Psychographics:**
+
+- Personality & Attitudes:
+
+ - Sporty
+ - Atheltic
+ - Outgoing
+ - Social
+
+**Lifestyles:**
+
+Is currently a golfer
+Is interesred in taking up golf
+Has friends or partner that is interested in golf
+Likes golf style
+
+The golf shop should enable the **Site User** to:
+
+View different golf clubs and products
+Arrange the items by price
+Add and remove items to their shopping basket
+Search for products
+View more detail of a selected product
+
+The golf shop app needs to enable the Site Owner to:
+
+Add, remove and modify poducts on the site.
+
+**eCommerce Application Type and Marketing Strategy**
+
+To create a site that fit the user's needs, I planned the site using the following methods:
+
+- **eCommerce Type:**
+
+ - **B2C** - The marketing strategies used for this business were SEO (Search Engine Optimisation), Content Marketing in the form of a newsletter, and Social Media Marketing in the form of a Facebook page which link is in the application.
+
+- **eCommerce Type:**
+
+- **SEO** - SEO is useful for ensuring a good online presence, incredibly important today with people's dependence on technology. SEO must be carefully managed to not be treated as spam. This was done by avoiding keyword stuffing in the page content but filling the meta tag with valuable keywords and a useful description.
+
+- **Content Marketing** - Content Marketing in the form of a newsletter was used. This form of marketing can be useful and engaging to the consumer. Content is created to attract a certain type of customer or relevant client to the store. It allows the store to show off its expertise and position itself as a reliable, trustworthy source of information and products. Other useful forms of content marketing are eBooks, webinars and blog posts.
+
+- **Social Media Marketing** - Organic Social Media Marketing was chosen as a free and easy way to become identifiable in the community. The site can be shared with others and special events or sales can be shared free of charge. This form of marketing allows the store to connect directly with the consumer and build relationships and loyalty in the customer base. This form of marketing can also be used to improve the store's customer service and support. There is also the potential to add a paid service which will allow the store to be marketed by the social media provider to become more visible to a larger audience. The social media chosen for this project was Facebook.
+
+**Scope**
+
+A scope was defined to identify what needed to be done to align features with the strategy previously defined. This was broken into two categories:
+
+**Content Requirements**
+
+The user will be looking for:
+- A list of clubs and golf accessories
+- Be able to purchase a single club or a set of clubs and accessories
+- Detailed information and images of the products
+- A way to search the site using the name or description fields.
+
+**Functionality Requirements**
+
+The user will be able to:
+- Choose a product or an accessory they want to get more infomrmation.
+- Choose a product to purchose
+- Browse the site to find product information.
+
+**Skeleton**
+
+Mockup designs are made with [Balsamic.](https://balsamiq.com/)
+
+Click on the links below to view.
+|    Mobile   |    Tablet / Desktop   | 
+|    :----:    |     :----:   |   
+|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golf%20for%20Android.bmpr)|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golfe%20for%20LargerScreens.bmpr) | 
 
 <span id="ux-design"></span>
 
-### 1.3 Design 
+### 2.4 Design 
 
 - #### Colour scheme 
 I kept this website very neutral so that it doesnt take away from the golf images.  White for the header mild color scheme from colorwwall.com.   
@@ -104,21 +225,13 @@ I collected the images from multiple sites including https://www.halpennygolf.co
  I have crated a model for the categories and products and was able to add them using fitures using json files.  I have used allauth for my login and logout. 
  I have order models for the checkout and 
 
-### 1.5 Mockup designs
-Mockup designs are made with [Balsamic.](https://balsamiq.com/)
-
-Click on the links below to view.
-|    Mobile   |    Tablet / Desktop   | 
-|    :----:    |     :----:   |   
-|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golf%20for%20Android.bmpr)|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golfe%20for%20LargerScreens.bmpr) | 
-
 <span id="features"></span>
 
-<h1>2. Features</h1>
+<h1>23. Features</h1>
 
 <span id="features-existing"></span>
 
-### 2.1 Existing features 
+### 3.1 Existing features 
 
 #### 1. Design 
 - A basic, uncluttered layout with consistency.
@@ -149,13 +262,13 @@ Click on the links below to view.
 
 <span id="features-future"></span>
 
-### 2.2 Features left to implement in the future 
+### 3.2 Features left to implement in the future 
 - Extra style to be added.
 - Facebook page to be updated.
 
 <span id="technologies"></span>
 
-<h1>3. Technologies used</h1>
+<h1>4. Technologies used</h1>
 
 #### Languages used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -215,7 +328,7 @@ Click on the links below to view.
 
 <span id="testing"></span>
 
-<h1>4. Testing</h1>
+<h1>5. Testing</h1>
 
 ## 1. Code validators
  - **[HTML Validator](https://validator.w3.org/):** Some errors due to django.
@@ -257,7 +370,7 @@ Click on the links below to view.
     - I added order functionality and tested in the app.
 
 
-<h1>5. Deployment</h1>
+<h1>6. Deployment</h1>
 
 #### Requirements 
 - Python3 
@@ -298,7 +411,7 @@ Click on **Open app** in the right corner of your Heroku account. The app wil op
 
 <span id="credits"></span>
 
-<h1>6. Credits</h1>
+<h1>7. Credits</h1>
 
 This project is based on the Botique Ado walkthrough project and also using project example Idea 2.  A lot of the code that I used in the walkthrough project I also used on this project.
 
@@ -310,7 +423,7 @@ This project is based on the Botique Ado walkthrough project and also using proj
 
 <span id="Acknowledge"></span>
 
-<h1>7. Acknowledge</h1>
+<h1>8. Acknowledge</h1>
 
 Thanks to the following people and organizations who helped or inspired me for the project:  
 - The support from Kasia and my class mates.

@@ -194,7 +194,7 @@ Mockup designs are made with [Balsamic.](https://balsamiq.com/)
 Click on the links below to view.
 |    Mobile   |    Tablet / Desktop   | 
 |    :----:    |     :----:   |   
-|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golf%20for%20Android.bmpr)|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golfe%20for%20LargerScreens.bmpr) | 
+|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golf%20for%20Android.bmpr)|[golfShop](https://github.com/colmhaugh/GolfShop/blob/main/readme/balsamic/Golf%20for%20LargerScreens.bmpr) | 
 
 <span id="ux-design"></span>
 

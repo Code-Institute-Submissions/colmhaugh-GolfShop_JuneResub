@@ -356,8 +356,8 @@ I collected the images from multiple sites including https://www.halpennygolf.co
 
 1. As a user i want to click on a golf accessory so that I can see the the details of the product. 
     - The user can click on a product and a detail page will open with the details required.
-2. As a user i want to view a paginated list of products so that I can select what product I want to view. 
-    - The user will see see a set ammount of products depending on the screen size. 
+2. As a user I want to be able to enter my payment information so that I can purchase equipment. 
+    - The user be able to checkout securely using Stripe. 
 3. As a user i want to add and remove items from my shopping basket.
     - A user add and remove products from basket. 
 4. As a user i want to be able to search for a product.

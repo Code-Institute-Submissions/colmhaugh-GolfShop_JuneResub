@@ -102,9 +102,9 @@ To create a website that would attract and engage users, the developer viewed ot
 ### Main Inspirations
 
 The botique Ado application and various golf and sports websites
-![halpennygolf](https://www.halpennygolf.com/)
-![McGuirksGolf](https://www.mcguirksgolf.com/)
-![Elverys](https://www.elverys.ie/)
+- [halpennygolf](https://www.halpennygolf.com/)
+- [McGuirksGolf](https://www.mcguirksgolf.com/)
+- [Elverys](https://www.elverys.ie/)
 And More....
 
 ### Strategy

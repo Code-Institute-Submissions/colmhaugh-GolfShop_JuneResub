@@ -12,7 +12,20 @@
                 <h1 class="display-4 logo-font text-black">
                     Enter your email below to be added to newsletter list:
                 </h1>
-                
+                <form action="POST" action="add">
+                    {% csrf_token %}
+                    <div class="my-5">
+                        <p>
+                            <label for="id_email">Email</label>
+                            <input type="email" id="id_email" name="newsletter_email">
+                        </p>
+                    </div>
+                    <div class="my-5">
+                        <p>
+                            <button type="submit">Subscribe</button>
+                        </p>
+                    </div>
+                </form>
                 <div class="my-5">
                     <h4>
                         <a href="{% url 'products' %}" 

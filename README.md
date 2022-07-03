@@ -245,6 +245,7 @@ I collected the images from multiple sites including https://www.halpennygolf.co
 - Users can search for a club on using the search bar. 
 - Users can select select from a tab what club or accessory they want to see. 
 - Users can navigate to a facebook shop page to help SEO. 
+- Users can add their email address to a Newsletter list.
 
 #### 3. Product
 - Logged in super user can add, edit or delete an item. 
@@ -267,6 +268,7 @@ I collected the images from multiple sites including https://www.halpennygolf.co
 ### 3.2 Features left to implement in the future 
 - Extra style to be added.
 - Facebook page to be updated.
+- Whishlist for users.
 
 <span id="technologies"></span>
 

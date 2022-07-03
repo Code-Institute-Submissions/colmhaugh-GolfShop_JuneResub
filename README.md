@@ -74,6 +74,7 @@ I used the walk through videos to help code the project.
 4. As a first time visitor, I want to register an account on the website, so I can buy golf accessories. 
 5. As a first time visitor, I want to select a product so that I can get more information on that product.
 6. As a first time visitor, I want to sort items so that I can view products in alphabetical order or price.
+7. As a first time visitor, I want to sort items so that I can view products in order by brand.
 
 **Site member goals:** 
 
@@ -85,7 +86,8 @@ All the goals of first-time visitors also apply for site members. There are addi
 5. As a site user I want to feel safe when i pay for my items so that i can give information to complete my purchase.
 6. As a site user I want to give my email details so that i can be added to a group to get updated from company.
 7. As a site user I want to go to the Facebook page so that I can see additional information about the shop.
-8. As a site user, I want to logout to my profile. 
+8. As a site user, I want to be able to sign up for a newsletter. 
+9. As a site user, I want to logout to my profile. 
 
 
 **Admin goals:**

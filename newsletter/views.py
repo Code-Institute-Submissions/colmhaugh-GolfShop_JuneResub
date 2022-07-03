@@ -22,6 +22,7 @@ def get_subscribe(request):
         email = request.POST.get('newsletter_email')
         Newsletter.objects.create(email=email)
 
-        return redirect(reverse('newsletter.html'))
+        #return redirect(reverse('newsletter.html'))
+        return render(request, 'newsletter.html')
     
     return render(request, 'newsletter.html')

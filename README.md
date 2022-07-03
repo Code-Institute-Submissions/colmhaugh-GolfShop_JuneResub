@@ -57,10 +57,10 @@ I used the walk through videos to help code the project.
 ### 2.1 Ideal User Demographic 
 
 **The ideal user of this website will be:**
--Golfers
--Looking for gift ideas
--Interested in Sports
--Interested in starting a new sport
+- Golfers
+- Looking for gift ideas
+- Interested in Sports
+- Interested in starting a new sport
 
 
 <span id="ux-user-stories"></span>
@@ -135,10 +135,10 @@ Broken into three categories, the website will attempt to focus on the following
 
 **Lifestyles:**
 
-Is currently a golfer
-Is interesred in taking up golf
-Has friends or partner that is interested in golf
-Likes golf style
+ - Is currently a golfer
+ - Is interesred in taking up golf
+ - Has friends or partner that is interested in golf
+ - Likes golf style
 
 The golf shop should enable the **Site User** to:
 
